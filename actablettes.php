@@ -42,7 +42,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 						<h2 class="title extra-padding">
-							Melinium Computer
+							<span style="color: #FF0050"> Melinium </span>Computer
 						</h2>
 						<ul class="links">
 							<li>
@@ -99,7 +99,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -135,7 +135,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -171,7 +171,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -207,7 +207,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -243,7 +243,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -279,7 +279,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -314,7 +314,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -350,7 +350,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -386,7 +386,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -422,7 +422,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -458,7 +458,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -494,7 +494,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -530,7 +530,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -566,7 +566,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -602,7 +602,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -638,7 +638,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -674,7 +674,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>
@@ -710,7 +710,7 @@
 							</ul>
 						</div>
 						<div class="adtocartbtn">
-							<a href="cart.html">
+							<a href="detailproduits.php">
 								Détail Produit
 							</a>
 						</div>

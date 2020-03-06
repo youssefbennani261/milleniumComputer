@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Melinium Computer - Service </title>
+	<title> Melinium Computer - Connexion  </title>
 	<!-- favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<!-- bootstrap -->
@@ -30,12 +30,10 @@
 
 <body>
 
-	<!-- support bar area end -->
+	
 
 	<!-- Start Navigation -->
-
 	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."menuheader.html");?>
-
 			<!-- Search Modal Start -->
 			<!-- Modal -->
 			<div class="modal fade" id="serchmodal" tabindex="-1" role="dialog"  aria-hidden="true">
@@ -58,106 +56,88 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
-						<h2 class="title">
-				<span style="color: #FF0050"> Melinium </span>Computer
-						</h2>
-						<ul class="links">
-							<li>
-								<a href="shop.php">
-									Home
-								</a>
-							</li>
-							<li>
-									<i class="fas fa-angle-right"></i>
-							</li>
-							<li>
-								<a class="active" href="service.php">
-										Services
-								</a>
-							</li>
-						</ul>
+								<h2 class="title">
+								<span style="color: #FF0050"> Melinium </span>Computer
+								</h2>
+								<ul class="links">
+									<li>
+										<a href="#">
+											Home
+										</a>
+									</li>
+									<li>
+											<i class="fas fa-angle-right"></i>
+									</li>
+									<li>
+										<a class="active" href="Connexion.php">
+												Connexion
+										</a>
+									</li>
+								</ul>
 				</div>
 			</div>
 		</div>
 	</header>
 	<!-- Hero Area End -->
 
-	<!-- Service Area Start -->
-	<section class="service about-page-service">
+<!-- Contact page start -->
+<section class="contact">
 		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<div class="section-title">
-						<h2 class="title">
-							Mes Services
-						</h2>
+				<div class="row">
+						<div class="col-12 text-center">
+							<div class="section-title">
+								<h2 >
+										Login 
+								</h2>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6">
-							<div class="s-box">
-								<div class="content">
-										<i class="flaticon-website"></i>
-										<a href="#">
-												<h4>
-													Ordinateurs
-													</h4>
-										</a>
-										<p>
-										Vente les Ordinateurs avec tout les
-										accessoires périphériques informatiques 
-										 Imprimantes et Scanners et Logiciels.
-										</p>
-								</div>
+					<div class="row justify-content-center">
+						<div class="col-md-10">
+							<div class="contact-form">
+									<form action="#">
+											<div class="row">
+												<div class="col-md-6">
+													<input type="email" class="myform" placeholder=" Votre Email">
+												</div>
+												<div class="col-md-6">
+													<input type="password" class="myform" placeholder="Mot de Passe ">
+												</div>
+												
+												<div class="col-md-6" style="margin:auto; margin-top: 50px">
+													<button type="submit" class="submitbtn">
+														Connexion
+													</button>
+												</div>
+											</div>
+										</form>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="s-box">
-								<div class="content">
-										<i class="flaticon-windows"></i>
-										<a href="#">
-												<h4>
-												Téléphone & Tablettes
-													</h4>
-										</a>
-										<p>
-										Vente de téléphones portables,
-										 tablettes et accessoires 
-										</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="s-box">
-								<div class="content">
-										<i class="flaticon-home"></i>
-										<a href="#">
-												<h4>
-												Réparation
-													</h4>
-										</a>
-										<p>
-										Réparer tous les appareils électroniques telephones 
-										que les ordinateurs,les téléphones de transfert, 
-										le téléchargement de programmes et les caméras de 
-										surveillance.       
-										Creation des site Web est applications androids.	
-
-										</p>
-								</div>
-							</div>
-						</div>
-			</div>
+					</div>
 		</div>
 	</section>
-		<!-- Service Area End -->
+<!-- Contact  page End -->
 
+<!-- Map Start -->
+<div class="contact-map">
+		<div id="map"></div>
+</div>
+<!-- Map end -->
 
 <!-- footer area start -->
 
 <?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."footer.html");?>
+
+
 <!-- footer area End -->
+
+
+
+
+
+
+
+
 
 
 
@@ -194,6 +174,11 @@
 	<script src="assets/js/waypoints.min.js"></script>
 	<!-- counterup js-->
 	<script src="assets/js/jquery.counterup.min.js"></script>
+	<!-- Google Map Api js -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFuLx8S7A8eianoUhkYMeXpGPvsXp1NM&amp;callback=initMap"
+	async defer></script>
+	<!-- Google Map Activate -->
+	<script src="assets/js/goolg-map-activate.js"></script>
 	<!-- main -->
 	<script src="assets/js/main.js"></script>
 </body>
