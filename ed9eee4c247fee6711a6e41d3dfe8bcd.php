@@ -33,7 +33,11 @@
 	
 
 	<!-- Start Navigation -->
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."menuheader.html");?>
+	<header class="prymery-menu">
+	<nav class="navbar navbar-area navbar-expand-lg bg-dark" style="height: 70px;">
+	<img src="assets/img/logo/logo.png" class="mx-auto" alt="logo image">
+
+    </nav>
 			<!-- Search Modal Start -->
 			<!-- Modal -->
 			<div class="modal fade" id="serchmodal" tabindex="-1" role="dialog"  aria-hidden="true">
@@ -81,7 +85,7 @@
 						<div class="col-12 text-center">
 							<div class="section-title">
 								<h2 >
-										Login 
+										Admin Login 
 								</h2>
 							</div>
 						</div>
@@ -91,15 +95,15 @@
 							<div class="contact-form">
 									<form action="#">
 											<div class="row">
-												<div class="col-md-6">
-													<input type="email" class="myform" placeholder=" Votre Email">
+												<div class="col-md-6 col-lg-6">
+													<input type="text" class="myform" id="email" placeholder=" Votre Email">
 												</div>
-												<div class="col-md-6">
-													<input type="password" class="myform" placeholder="Mot de Passe ">
+												<div class="col-md-6 ">
+													<input type="password" class="myform" id="pwd" placeholder="Mot de Passe ">
 												</div>
 												
 												<div class="col-md-6" style="margin:auto; margin-top: 50px">
-													<button type="submit" class="submitbtn">
+													<button type="submit" class="submitbtn" id="login">
 														Connexion
 													</button>
 												</div>
@@ -118,7 +122,6 @@
 
 <!-- footer area start -->
 
-<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."footer.html");?>
 
 
 <!-- footer area End -->
@@ -173,6 +176,7 @@
 	<script src="assets/js/goolg-map-activate.js"></script>
 	<!-- main -->
 	<script src="assets/js/main.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 
