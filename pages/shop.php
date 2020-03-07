@@ -36,7 +36,7 @@
 	<!-- Start Navigation -->
 
 
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."menuheader.html");?>
+	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/MelliniumComputer/pages/"; include($path."menuheader.html");?>
 	
 
 
@@ -1804,7 +1804,7 @@
 	<!-- Product Details End -->
 
 <!-- footer area start -->
-<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."footer.html");?>
+<?php $path=$_SERVER["DOCUMENT_ROOT"]."/MelliniumComputer/pages/"; include($path."footer.html");?>
 
 <!-- footer area End -->
 
@@ -1848,7 +1848,10 @@
 	<script src="../assets/js/jquery.counterup.min.js"></script>
 	<!-- main -->
 	<script src="../assets/js/main.js"></script>
+	<!-- main de commande -->
+	<script src="js/main.js"></script>
 </body>
+
 
 
 </html>

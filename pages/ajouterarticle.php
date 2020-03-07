@@ -35,7 +35,7 @@
 	
 
 	<!-- Start Navigation -->
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."menuheader.html");?>
+	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/MelliniumComputer/pages/"; include($path."menuheader.html");?>
 			<!-- Search Modal Start -->
 			<!-- Modal -->
 			<div class="modal fade" id="serchmodal" tabindex="-1" role="dialog"  aria-hidden="true">
@@ -124,7 +124,7 @@
 
 <!-- footer area start -->
 
-<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."footer.html");?>
+<?php $path=$_SERVER["DOCUMENT_ROOT"]."/MelliniumComputer/pages/"; include($path."footer.html");?>
 
 
 <!-- footer area End -->
