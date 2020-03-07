@@ -12,7 +12,8 @@ $stmt = $con->prepare("select * from admin where login=? and mot_Passe=?");
           session_start();
           $_SESSION["admin"]=$result->fetch_assoc();
           echo 1;
-     }
+     }else
+     echo 0;
 
 
 $stmt->close();
