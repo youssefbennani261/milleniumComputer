@@ -11,21 +11,21 @@
 	<!-- favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<!-- bootstrap -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
 	<!-- flat icon -->
-	<link rel="stylesheet" href="assets/fonts/font/flaticon.css">
+	<link rel="stylesheet" href="../assets/fonts/font/flaticon.css">
 	<!-- animate.css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="../assets/css/animate.css">
 	<!-- magnific popup -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="../assets/css/magnific-popup.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
 	<!-- stylesheet -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
 	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 
 	<!-- Start Navigation -->
 
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."menuheader.html");?>
+	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/pages/"; include($path."menuheader.html");?>
 
 			<!-- Search Modal Start -->
 			<!-- Modal -->
@@ -158,7 +158,7 @@
 
 <!-- footer area start -->
 
-<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."footer.html");?>
+<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/pages/"; include($path."footer.html");?>
 <!-- footer area End -->
 
 
@@ -181,28 +181,28 @@
 
 
 	<!-- jquery -->
-	<script src="assets/js/jquery.js"></script>
+	<script src="../assets/js/jquery.js"></script>
 	<!-- popper -->
-	<script src="assets/js/popper.min.js"></script>
+	<script src="../assets/js/popper.min.js"></script>
 	<!-- bootstrap -->
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
 	<!-- owl carousel -->
-	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="../assets/js/owl.carousel.min.js"></script>
 	<!-- magnific popup -->
-	<script src="assets/js/jquery.magnific-popup.js"></script>
+	<script src="../assets/js/jquery.magnific-popup.js"></script>
 	<!-- wow js-->
-	<script src="assets/js/wow.min.js"></script>
+	<script src="../assets/js/wow.min.js"></script>
 	<!-- way point -->
-	<script src="assets/js/waypoints.min.js"></script>
+	<script src="../assets/js/waypoints.min.js"></script>
 	<!-- counterup js-->
-	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="../assets/js/jquery.counterup.min.js"></script>
 	<!-- main -->
-	<script src="assets/js/main.js"></script>
+	<script src="../assets/js/main.js"></script>
 		<!-- Google Map Api js -->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFuLx8S7A8eianoUhkYMeXpGPvsXp1NM&amp;callback=initMap"
 	async defer></script>
 	<!-- Google Map Activate -->
-	<script src="assets/js/goolg-map-activate.js"></script>
+	<script src="../assets/js/goolg-map-activate.js"></script>
 </body>
 
 

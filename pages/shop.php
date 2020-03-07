@@ -11,21 +11,21 @@
 	<!-- favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<!-- bootstrap -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
 	<!-- flat icon -->
-	<link rel="stylesheet" href="assets/fonts/font/flaticon.css">
+	<link rel="stylesheet" href="../assets/fonts/font/flaticon.css">
 	<!-- animate.css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="../assets/css/animate.css">
 	<!-- magnific popup -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="../assets/css/magnific-popup.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
 	<!-- stylesheet -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
 	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
 	<!-- Start Navigation -->
 
 
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."menuheader.html");?>
+	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/pages/"; include($path."menuheader.html");?>
 	
 
 
@@ -74,7 +74,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict1.jpg" alt="">
+							<img src="../assets/img/shop/prodict1.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -110,7 +110,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -146,7 +146,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict3.jpg" alt="">
+							<img src="../assets/img/shop/prodict3.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -182,7 +182,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict4.jpg" alt="">
+							<img src="../assets/img/shop/prodict4.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -218,7 +218,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict5.jpg" alt="">
+							<img src="../assets/img/shop/prodict5.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -254,7 +254,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict6.jpg" alt="">
+							<img src="../assets/img/shop/prodict6.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -290,7 +290,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict7.jpg" alt="">
+							<img src="../assets/img/shop/prodict7.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -326,7 +326,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict8.jpg" alt="">
+							<img src="../assets/img/shop/prodict8.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -362,7 +362,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict9.jpg" alt="">
+							<img src="../assets/img/shop/prodict9.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -398,7 +398,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -434,7 +434,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict11.jpg" alt="">
+							<img src="../assets/img/shop/prodict11.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -470,7 +470,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict12.jpg" alt="">
+							<img src="../assets/img/shop/prodict12.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -506,7 +506,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict1.jpg" alt="">
+							<img src="../assets/img/shop/prodict1.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -542,7 +542,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -578,7 +578,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict3.jpg" alt="">
+							<img src="../assets/img/shop/prodict3.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -614,7 +614,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict4.jpg" alt="">
+							<img src="../assets/img/shop/prodict4.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -650,7 +650,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict5.jpg" alt="">
+							<img src="../assets/img/shop/prodict5.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -686,7 +686,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict6.jpg" alt="">
+							<img src="../assets/img/shop/prodict6.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -722,7 +722,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict7.jpg" alt="">
+							<img src="../assets/img/shop/prodict7.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -758,7 +758,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict8.jpg" alt="">
+							<img src="../assets/img/shop/prodict8.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -794,7 +794,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict9.jpg" alt="">
+							<img src="../assets/img/shop/prodict9.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -830,7 +830,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -866,7 +866,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict11.jpg" alt="">
+							<img src="../assets/img/shop/prodict11.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -902,438 +902,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict12.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Camera
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div><div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict1.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Surface
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Tv
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict3.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Speaker
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict4.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Apple Tv
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict5.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft SSD
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict6.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Apple SSD
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict7.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Printer
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict8.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft HDD
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict9.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft RAM
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Tv
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict11.jpg" alt="">
-						</div>
-						<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Laptop
-										</h4>
-							</a>
-							<ul class="infolist">
-								<li>
-									<p>
-										Intel Core i5 8250U
-									</p>
-								</li>
-								<li>
-									<p class="productId">
-										ID: 59.685.01
-									</p>
-								</li>
-								<li>
-									<p>
-										Special Price $ 130,000
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="adtocartbtn">
-							<a href="detailproduits.php">
-								Détail Produit
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<div class="product-box">
-						<div class="product-image">
-							<img src="assets/img/shop/prodict12.jpg" alt="">
+							<img src="../assets/img/shop/prodict12.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1368,7 +937,7 @@
 				</div><div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict1.jpg" alt="">
+							<img src="../assets/img/shop/prodict1.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1404,7 +973,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1440,7 +1009,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict3.jpg" alt="">
+							<img src="../assets/img/shop/prodict3.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1476,7 +1045,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict4.jpg" alt="">
+							<img src="../assets/img/shop/prodict4.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1512,7 +1081,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict5.jpg" alt="">
+							<img src="../assets/img/shop/prodict5.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1548,7 +1117,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict6.jpg" alt="">
+							<img src="../assets/img/shop/prodict6.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1584,7 +1153,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict7.jpg" alt="">
+							<img src="../assets/img/shop/prodict7.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1620,7 +1189,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict8.jpg" alt="">
+							<img src="../assets/img/shop/prodict8.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1656,7 +1225,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict9.jpg" alt="">
+							<img src="../assets/img/shop/prodict9.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1692,7 +1261,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict2.jpg" alt="">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1728,7 +1297,7 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict11.jpg" alt="">
+							<img src="../assets/img/shop/prodict11.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1764,7 +1333,438 @@
 				<div class="col-lg-3 col-6">
 					<div class="product-box">
 						<div class="product-image">
-							<img src="assets/img/shop/prodict12.jpg" alt="">
+							<img src="../assets/img/shop/prodict12.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Camera
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div><div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict1.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Surface
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Tv
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict3.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Speaker
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict4.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Apple Tv
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict5.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft SSD
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict6.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Apple SSD
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict7.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Printer
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict8.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft HDD
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict9.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft RAM
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict2.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Tv
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict11.jpg" alt="">
+						</div>
+						<div class="info">
+							<a href="productdetails.html">
+									<h4 class="title">
+											Microsoft Laptop
+										</h4>
+							</a>
+							<ul class="infolist">
+								<li>
+									<p>
+										Intel Core i5 8250U
+									</p>
+								</li>
+								<li>
+									<p class="productId">
+										ID: 59.685.01
+									</p>
+								</li>
+								<li>
+									<p>
+										Special Price $ 130,000
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="adtocartbtn">
+							<a href="detailproduits.php">
+								Détail Produit
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="product-box">
+						<div class="product-image">
+							<img src="../assets/img/shop/prodict12.jpg" alt="">
 						</div>
 						<div class="info">
 							<a href="productdetails.html">
@@ -1804,7 +1804,7 @@
 	<!-- Product Details End -->
 
 <!-- footer area start -->
-<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/"; include($path."footer.html");?>
+<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/pages/"; include($path."footer.html");?>
 
 <!-- footer area End -->
 
@@ -1827,23 +1827,23 @@
 
 
 	<!-- jquery -->
-	<script src="assets/js/jquery.js"></script>
+	<script src="../assets/js/jquery.js"></script>
 	<!-- popper -->
-	<script src="assets/js/popper.min.js"></script>
+	<script src="../assets/js/popper.min.js"></script>
 	<!-- bootstrap -->
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
 	<!-- owl carousel -->
-	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="../assets/js/owl.carousel.min.js"></script>
 	<!-- magnific popup -->
-	<script src="assets/js/jquery.magnific-popup.js"></script>
+	<script src="../assets/js/jquery.magnific-popup.js"></script>
 	<!-- wow js-->
-	<script src="assets/js/wow.min.js"></script>
+	<script src="../assets/js/wow.min.js"></script>
 	<!-- way point -->
-	<script src="assets/js/waypoints.min.js"></script>
+	<script src="../assets/js/waypoints.min.js"></script>
 	<!-- counterup js-->
-	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="../assets/js/jquery.counterup.min.js"></script>
 	<!-- main -->
-	<script src="assets/js/main.js"></script>
+	<script src="/js/main.js"></script>
 </body>
 
 
