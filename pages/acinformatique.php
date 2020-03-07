@@ -32,7 +32,7 @@
 
 
 	<!-- Start Navigation -->
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/meliniumpc/pages/"; include($path."menuheader.html");?>
+	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."menuheader.html");?>
 	<!-- End Navigation -->
 
 	<!-- Hero Area Start  -->
