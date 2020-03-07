@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title> Melinium Computer - Connexion  </title>
 	<!-- favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -176,6 +177,7 @@
 	<script src="../assets/js/goolg-map-activate.js"></script>
 	<!-- main -->
 	<script src="../assets/js/main.js"></script>
+   <!-- main-commande -->
 	<script src="../js/main.js"></script>
 </body>
 
