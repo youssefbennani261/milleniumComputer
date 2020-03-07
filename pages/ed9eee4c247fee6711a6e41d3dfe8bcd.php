@@ -176,7 +176,7 @@
 	<script src="../assets/js/goolg-map-activate.js"></script>
 	<!-- main -->
 	<script src="../assets/js/main.js"></script>
-	<script src="js/main.js"></script>
+	<script src="../js/main.js"></script>
 </body>
 
 

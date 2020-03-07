@@ -32,7 +32,7 @@
 
 
 	<!-- Start Navigation -->
-	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/MelliniumComputer/pages/"; include($path."menuheader.html");?>
+	<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."menuheader.html");?>
 	<!-- End Navigation -->
 
 	<!-- Hero Area Start  -->
@@ -728,7 +728,7 @@
 
 
 <!-- footer area start -->
-<?php $path=$_SERVER["DOCUMENT_ROOT"]."/MelliniumComputer/pages/"; include($path."footer.html");?>
+<?php $path=$_SERVER["DOCUMENT_ROOT"]."/milleniumComputer/pages/"; include($path."footer.html");?>
 <!-- footer area End -->
 
 
