@@ -61,7 +61,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 								<h2 class="title">
-								<span style="color: #FF0050"> Melinium </span>Computer
+								<span style="color: #FF0050"> Mellinium </span>Computer
 								</h2>
 								<ul class="links">
 								
@@ -176,7 +176,7 @@
 	<script src="../assets/js/goolg-map-activate.js"></script>
 	<!-- main -->
 	<script src="../assets/js/main.js"></script>
-	<script src="js/main.js"></script>
+	<script src="../js/main.js"></script>
 </body>
 
 
