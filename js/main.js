@@ -10,6 +10,4 @@ if(window.location.pathname==="/MelliniumComputer/pages/ed9eee4c247fee6711a6e41d
 }
 if(window.location.pathname==="/MelliniumComputer/pages/shop.php"){
 alert("dd");
-
-
 }
