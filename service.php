@@ -152,7 +152,9 @@
 		</div>
 	</section>
 		<!-- Service Area End -->
-
+		<div class="contact-map " style="width: 80% ;margin: auto;">
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297.1979026284573!2d-5.003633259724354!3d34.04501478214811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9f8b3145bb504d%3A0xace6aa0e13b9cebf!2sSt%C3%A9%20DARTI%20S.A%20Vente%20D&#39;%C3%A9lectrom%C3%A9nager%20en%20gros!5e1!3m2!1sen!2sus!4v1583537089858!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
 
 <!-- footer area start -->
 
@@ -196,6 +198,11 @@
 	<script src="assets/js/jquery.counterup.min.js"></script>
 	<!-- main -->
 	<script src="assets/js/main.js"></script>
+		<!-- Google Map Api js -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFuLx8S7A8eianoUhkYMeXpGPvsXp1NM&amp;callback=initMap"
+	async defer></script>
+	<!-- Google Map Activate -->
+	<script src="assets/js/goolg-map-activate.js"></script>
 </body>
 
 
