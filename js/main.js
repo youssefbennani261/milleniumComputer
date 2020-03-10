@@ -3,7 +3,7 @@ if(window.location.pathname==="/MelliniumComputer/pages/ed9eee4c247fee6711a6e41d
         e.preventDefault();
        $.post("../php/login.php",{login:$("#email").val(),pwd:$("#pwd").val()},(data)=>{
            if(data=="1"){
-              alert("hello");
+              window.location.href="http://localhost:8080/MelliniumComputer/pages/dashboard.php"
            }
            else
            alert("password incorrect");
