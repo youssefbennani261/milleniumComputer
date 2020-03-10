@@ -11,9 +11,10 @@ if (window.location.pathname == "/MelliniumComputer/pages/dashboard.php") {
         $("#nonvendu").html(tab.nonvendu);
     })
 }
-// Dropzone.autoDiscover = false;
 
 if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
+    Dropzone.autoDiscover = false;
+
     let tab;
     function get_articles(){
         $.get("../php/dashboard.php", {
@@ -75,6 +76,14 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
                 destroy: true
             })
         })
+    }
+    function checkinputs(){
+        let state=true;
+        for(let i=0;i<$("#con-close-modal2 input[type='text']").length;i++){
+            if($("#con-close-modal2 input[type='text']")[i].value=="")
+            state=false;
+        }
+        return state;
     }
     get_articles();
     $("#datatable").on("click",".modifier",(e)=>{
@@ -144,12 +153,14 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
         //         obj[item.name] = item.value
         //         return obj
         //    });
+    
                 $.post("../php/dashboard.php",{op:3,des:$("#designation").val(),vendu:$("#Vendu").val(),prix:$("#prix").val(),est:$("#estim").val(),cate:$("#categorie").val(),detail:JSON.stringify(arr),id:tab[id].id},()=>{
                     $('#con-close-modal').modal('toggle'); 
                     get_articles();
                     $.Notification.autoHideNotify('success','bottom right', 'Modification avec succes');
 
                 })
+            
         // let details=$(".detail").serializeArray();
         // let result = details.reduce(function(map,obj) {
         //     map[obj.name] = obj.value;
@@ -231,6 +242,9 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
         $("#details").append(`<div class="row"><div class="col-md-6"><input type="text" class="form-control key" placeholder="Nom de specification" ></div><div class="col-md-6"><input type="text" class="form-control value" placeholder="Valeur" ></div></div><br>`);
     }
     $("#save2").click(()=>{
+        if(checkinputs()===false){
+            $.Notification.autoHideNotify('error','bottom right', 'Veuillez remplir tout les champs');
+        }else{
         let details=$(".key");
         let values=$(".value");
     let arr=$.map(details,(el,index)=>{
@@ -265,6 +279,7 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
 }
 
     });
+}
 
 
     // let data=new FormData();
