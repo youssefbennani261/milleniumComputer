@@ -10,6 +10,7 @@ $cate=isset($_POST["cate"])?$_POST["cate"]:0;
 $detail=isset($_POST["detail"])?$_POST["detail"]:"";
 $id=isset($_POST["id"])?$_POST["id"]:0;
 $id2=isset($_GET["id"])?$_GET["id"]:0;
+$descp=isset($_POST["desc"])?$_POST["desc"]:"";
 if($op==1){
     $stmt = $con->prepare("select count(id_article) from article");
      $stmt->execute();
@@ -36,11 +37,11 @@ if($op==1){
      echo json_encode(array("nbrarticle"=>$nbrarticle,"vendu"=>$nbrarticlevendu,"nonvendu"=>$nbrarticlenonvendu));
 }
 if($op==2){
-    $stmt = $con->prepare("select designation,vendue,prixU,estimation,Nom_categorie,Details,id_article,a.src_profile from article a join categorie c on c.id_categorie=a.id_categorie");
+    $stmt = $con->prepare("select designation,vendue,prixU,estimation,Nom_categorie,Details,id_article,a.src_profile,description from article a join categorie c on c.id_categorie=a.id_categorie");
     $stmt->execute();
    $result=$stmt->get_result();
    while($row=$result->fetch_array()){
-       $tab[]=array("desi"=>$row[0],"vendue"=>$row[1],"prixU"=>$row[2],"estimation"=>$row[3],"categorie"=>$row[4],"detail"=>json_decode($row[5]),"id"=>$row[6],"src"=>$row[7]);
+       $tab[]=array("desi"=>$row[0],"vendue"=>$row[1],"prixU"=>$row[2],"estimation"=>$row[3],"categorie"=>$row[4],"detail"=>json_decode($row[5]),"id"=>$row[6],"src"=>$row[7],"desc"=>$row[8]);
    }
    echo json_encode($tab);
    $stmt->close();
@@ -52,8 +53,8 @@ if($op2==3){
     // $location = '../upload/' . $name;
     // move_uploaded_file($_FILES["profil"]["tmp_name"], $location);
     // $location2='../upload/'.$name;
-    $stmt = $con->prepare("update article set designation=?,vendue=?,prixU=?,estimation=?,Details=?,id_categorie=? where id_article=?");
-    $stmt->bind_param('siiisii',$des,$vendu,$prix,$est,$detail,$cate,$id);
+    $stmt = $con->prepare("update article set designation=?,vendue=?,prixU=?,estimation=?,Details=?,id_categorie=?,description=? where id_article=?");
+    $stmt->bind_param('siiisisi',$des,$vendu,$prix,$est,$detail,$cate,$descp,$id);
     $stmt->execute();
     $stmt->fetch();
     $stmt->close();
@@ -99,8 +100,8 @@ if($op2==5){
     $location = '../upload/' . $name;
     move_uploaded_file($_FILES["profil"]["tmp_name"], $location);
     $location2='../upload/'.$name;
-    $stmt = $con->prepare("insert into article (designation,vendue,prixU,estimation,date_publication,Details,id_categorie,src_profile) values(?,?,?,?,?,?,?,?)");
-    $stmt->bind_param('siiissis',$des,$vendu,$prix,$est,$timestamp,$detail,$cate,$location2);
+    $stmt = $con->prepare("insert into article (designation,vendue,prixU,estimation,date_publication,Details,id_categorie,src_profile,description) values(?,?,?,?,?,?,?,?,?)");
+    $stmt->bind_param('siiississ',$des,$vendu,$prix,$est,$timestamp,$detail,$cate,$location2,$descp);
     $stmt->execute();
     $article_id=$stmt->insert_id;
     $stmt->fetch();

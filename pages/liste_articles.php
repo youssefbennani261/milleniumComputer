@@ -113,6 +113,7 @@ if(!isset($_SESSION["admin"])){header("Location: http://localhost:8080/Mellinium
                                             <thead>
                                                 <tr>
                                                     <th>Designation</th>
+                                                    <th>Description</th>
                                                     <th>vendue</th>
                                                     <th>prixU</th>
                                                     <th>estimation</th>
@@ -184,6 +185,12 @@ if(!isset($_SESSION["admin"])){header("Location: http://localhost:8080/Mellinium
                             </div>
                         </div>
                     </div>
+                    <div class="form-group">
+                                                <div class="col-md-10">
+                                                <label class="col-md-2 control-label">Description</label>
+                                                    <textarea class="form-control" rows="5" id="descrip2"></textarea>
+                                                </div>
+                                            </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
@@ -267,6 +274,12 @@ if(!isset($_SESSION["admin"])){header("Location: http://localhost:8080/Mellinium
                                 <input type="text" class="form-control" id="prix" placeholder="Prix">
                             </div>
                         </div>
+                        <div class="form-group">
+                                                <div class="col-md-10">
+                                                <label class="col-md-2 control-label">Description</label>
+                                                    <textarea class="form-control" rows="5" id="descrip"></textarea>
+                                                </div>
+                                            </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
