@@ -128,7 +128,7 @@
             $productdetails.owlCarousel({
                 autoplay: false,
                 autoplayTimeout: 4000,
-                loop: true,
+                loop: false,
                 items: 1,
                 center: true,
                 nav: false,

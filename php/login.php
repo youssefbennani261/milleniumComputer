@@ -2,8 +2,6 @@
 require("connection.php");
 $pwd=isset($_POST["pwd"])?md5($_POST["pwd"]):"";
 $login=isset($_POST["login"])?$_POST["login"]:"";
-
-
 $stmt = $con->prepare("select * from admin where login=? and mot_Passe=?");
      $stmt->bind_param("ss",$login,$pwd);
      $stmt->execute();
@@ -19,11 +17,5 @@ $stmt = $con->prepare("select * from admin where login=? and mot_Passe=?");
 $stmt->close();
 
 // print_r($sql->num_rows);
-
-
-
-
-
-
 
 ?>

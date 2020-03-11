@@ -71,71 +71,42 @@
 				<div class="col-lg-7">
 					<div class="slider-wrapper">
 							<div class="leftthumb">
-								<div class="owl-thumbs" data-slider-id="1">
-										<div class="owl-thumb-item">
-											<img src="../assets/img/shop/product-details-slider/thumb1.jpg" alt="">
-										</div>
-										<div class="owl-thumb-item">
-											<img src="../assets/img/shop/product-details-slider/thumb2.jpg" alt="">
-										</div>
-										<div class="owl-thumb-item">
-											<img src="../assets/img/shop/product-details-slider/thumb3.jpg" alt="">
-										</div>
+								<div class="owl-thumbs" id="c" data-slider-id="1">
+									
+									
 								</div>
 							</div>
 							<div class="rightimage main-images">
 								<div class="owl-thumbs" id="product-details" data-slider-id="1">
-									<div class="single-product-thumb">
-										<img src="../assets/img/shop/product-details-slider/big-img1.jpg" alt="">
-									</div>
-									<div class="single-product-thumb">
-										<img src="../assets/img/shop/product-details-slider/big-img2.jpg" alt="">
-									</div>
-									<div class="single-product-thumb">
-										<img src="../assets/img/shop/product-details-slider/big-img3.jpg" alt="">
-									</div>
+								<div id="d">
+								</div>
+								
 								</div>
 							</div>
 						</div>
 				</div>
 				<div class="col-lg-5">
 				 <div class="right-info">
-						<h4 class="product-title">
-								Microsoft Surface
+						<h4 class="product-title" id="titre">
+								
 						</h4>
 						<ul class="shortinfo">
-							<li>
-								<p>
-									Intel Core i5 8250U
-								</p>
+							<li id="detai">
+								
 							</li>
 							<li>
 								<p class="productId">
 								Date D'annonce: 	
-								<span>
-										  10 / 01 / 2020
+								<span id="date">
+										 
 									</span>		
 								</p>
 							</li>
 							<li>
 								<div class="review">
 									<div class="stare">
-										<ul>
-											<li>
-												<i class="fas fa-star"></i>
-											</li>
-											<li>
-												<i class="fas fa-star"></i>
-											</li>
-											<li>
-												<i class="fas fa-star"></i>
-											</li>
-											<li>
-												<i class="fas fa-star"></i>
-											</li>
-											<li>
-													<i class="fas fa-star"></i>
-											</li>
+										<ul id="ani">
+										
 										</ul>
 									</div>
 									<p class="reviewinumber">
@@ -145,115 +116,35 @@
 							</li>
 						</ul>
 						<div class="product-details-text">
-							<p>
-									Quick six blind smart out burst. Perfectly on furniture dejection
-									determine my depending an to. Add short water court fat. Her
-									bachelor honoured perceive securing but desirous ham
-									required. Questions deficient acuteness to engrossed as.
-									Entirely led ten humoured greatest and yourself. Besides ye
-									country on observe.
+							<p id="detailarticle">
+									
 							</p>
 						</div>
 						<div class="paction">
 							
 								<div class="price">
-									<h3>
-                                 Prix : 13 000 DH
+									<h3 id="prix">
+                                
 									</h3>
+									
 								</div>
-								<div class="btn-wrapper">
-										<a href="#" class="mybtn"> Info Achat  </a>
+								<div class="btn-wrapper" id="vendu">
+										
 								</div>
 						</div>
 						<div class="otherInfo">
 							<ul>
 								<li>
-									<div class="category">
-										<h4 class="title">
-												Category: 
-										</h4>
-										<div class="catagori-list">
-											<ul>
-												<li>
-													<a href="#">Laptop, </a>
-												</li>
-												<li>
-													<a href="#">Computer</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="tag">
-										<h4 class="title">
-												Tags: 
-										</h4>
-										<div class="tag-list">
-											<ul>
-												<li>
-													<a href="#">Laptop, </a>
-												</li>
-												<li>
-													<a href="#">Computer</a>
-												</li>
-												<li>
-													<a href="#">Dell, </a>
-												</li>
-												<li>
-													<a href="#">Windows, </a>
-												</li>
-											</ul>
-										</div>
-									</div>
+									
+								
 								</li>
 							</ul>
 						</div>
 					</div> 
 				</div>
 			</div>
-			<div class="row prduct-tab">
-				<div class="col-lg-3">
-						<div class="nav flex-column " role="tablist" aria-orientation="vertical">
-							<a class="nav-link active" id="v-pills-description-tab" data-toggle="pill" href="#v-pills-description" role="tab" aria-controls="v-pills-description" aria-selected="true"> Designation </a>
-							<a class="nav-link" id="v-pills-reviews-tab" data-toggle="pill" href="#v-pills-reviews" role="tab" aria-controls="v-pills-reviews" aria-selected="false"> Details </a>
-							<a class="nav-link" id="v-pills-shipping-tab" data-toggle="pill" href="#v-pills-shipping" role="tab" aria-controls="v-pills-shipping" aria-selected="false"> Info</a>
-						</div>
-				</div>
-				<div class="col-lg-9">
-						<div class="tab-content" id="v-pills-tabContent">
-								<div class="tab-pane fade show active" id="v-pills-description" role="tabpanel" aria-labelledby="v-pills-description-tab">
-										Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it.
-										Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as. The year paid met him
-										does eyes same. Own marianne improved sociable not out. Thing do sight blush mr an. Celebrated am announc
-										delightful remarkably we in literature it solicitude. Design use say piqued any gay supply. Front sex match vexed
-										her those great.An sincerity so extremity he additions. Her yet there truth merit. Mrs all projecting favourable now
-										unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can
-										admiration prosperous now devonshire  diminution law. Extremity sweetness difficult behaviour he of.
-										On disposal of as landlord horrible.
-								</div>
-								<div class="tab-pane fade" id="v-pills-reviews" role="tabpanel" aria-labelledby="v-pills-reviews-tab">
-										Front sex match vexed
-										her those great.An sincerity so extremity he additions. Her yet there truth merit. Mrs all projecting favourable now
-										unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can
-										admiration prosperous now devonshire  diminution law. Extremity sweetness difficult behaviour he of.
-										On disposal of as landlord horrible. Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it.
-										Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as. The year paid met him
-										does eyes same. Own marianne improved sociable not out. Thing do sight blush mr an. Celebrated am announc
-										delightful remarkably we in literature it solicitude. Design use say piqued any gay supply.
-								</div>
-								<div class="tab-pane fade" id="v-pills-shipping" role="tabpanel" aria-labelledby="v-pills-shipping-tab">
-										Celebrated am announc
-										delightful remarkably we in literature it solicitude. Design use say piqued any gay supply. Front sex match vexed
-										her those great.An sincerity so extremity he additions. Her yet there truth merit. Mrs all projecting favourable now
-										unpleasing. Son law garden chatty temper. Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it.
-										Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as. The year paid met him
-										does eyes same. Own marianne improved sociable not out. Thing do sight blush mr an. Oh children provided to mr elegance marriage strongly. Off can
-										admiration prosperous now devonshire  diminution law. Extremity sweetness difficult behaviour he of.
-										On disposal of as landlord horrible.
-								</div>
-							</div>
-				</div>
-			</div>
-			<div class="row anotherproduct">
+			
+			<div class="row anotherproduct" id="aff">
 				<div class="col-12">
 						<div class="text-center">
 								<h2 class="title">
@@ -261,150 +152,7 @@
 								</h2>
 							</div>
 				</div>
-				<div class="col-lg-3 col-6">
-						<div class="product-box">
-							<div class="product-image">
-								<img src="../assets/img/shop/prodict1.jpg" alt="">
-							</div>
-							<div class="info">
-							<a href="productdetails.html">
-									<h4 class="title">
-											Microsoft Surface
-										</h4>
-							</a>
-								<ul class="infolist">
-									<li>
-										<p>
-											Intel Core i5 8250U
-										</p>
-									</li>
-									<li>
-										<p class="productId">
-											Date D'annonce : 10 / 01 / 2020
-										</p>
-									</li>
-									<li>
-										<p>
-											Special Price $ 130,000
-										</p>
-									</li>
-								</ul>
-							</div>
-							<div class="adtocartbtn">
-								<a href="detailproduits.php">
-									Add to cart
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-6">
-						<div class="product-box">
-							<div class="product-image">
-								<img src="../assets/img/shop/prodict2.jpg" alt="">
-							</div>
-							<div class="info">
-								<a href="productdetails.html">
-										<h4 class="title">
-												Microsoft Tv
-											</h4>
-								</a>
-								<ul class="infolist">
-									<li>
-										<p>
-											Intel Core i5 8250U
-										</p>
-									</li>
-									<li>
-										<p class="productId">
-											Date D'annonce : 10 / 01 / 2020
-										</p>
-									</li>
-									<li>
-										<p>
-											Special Price $ 130,000
-										</p>
-									</li>
-								</ul>
-							</div>
-							<div class="adtocartbtn">
-								<a href="detailproduits.php">
-									Add to cart
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-6">
-						<div class="product-box">
-							<div class="product-image">
-								<img src="../assets/img/shop/prodict3.jpg" alt="">
-							</div>
-							<div class="info">
-								<a href="productdetails.html">
-										<h4 class="title">
-												Microsoft Speaker
-											</h4>
-								</a>
-								<ul class="infolist">
-									<li>
-										<p>
-											Intel Core i5 8250U
-										</p>
-									</li>
-									<li>
-										<p class="productId">
-											Date D'annonce : 10 / 01 / 2020
-										</p>
-									</li>
-									<li>
-										<p>
-											Special Price $ 130,000
-										</p>
-									</li>
-								</ul>
-							</div>
-							<div class="adtocartbtn">
-								<a href="detailproduits.php">
-									Add to cart
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-6">
-						<div class="product-box">
-							<div class="product-image">
-								<img src="../.assets/img/shop/prodict4.jpg" alt="">
-							</div>
-							<div class="info">
-								<a href="productdetails.html">
-										<h4 class="title">
-												Apple Tv
-											</h4>
-								</a>
-								<ul class="infolist">
-									<li>
-										<p>
-											Intel Core i5 8250U
-										</p>
-									</li>
-									<li>
-										<p class="productId">
-											Date D'annonce : 10 / 01 / 2020
-										</p>
-									</li>
-									<li>
-										<p>
-											Special Price $ 130,000
-										</p>
-									</li>
-								</ul>
-							</div>
-							<div class="adtocartbtn">
-								<a href="detailproduits.php">
-									Add to cart
-								</a>
-							</div>
-						</div>
-					</div>
+				
 			</div>
 		</div>
 	</section>
