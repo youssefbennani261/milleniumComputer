@@ -78,8 +78,8 @@
 							</div>
 							<div class="rightimage main-images">
 								<div class="owl-thumbs" id="product-details" data-slider-id="1">
-								<div id="d">
-								</div>
+								
+
 								
 								</div>
 							</div>

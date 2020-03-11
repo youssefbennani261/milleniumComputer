@@ -360,7 +360,13 @@ ss+="<p> "+t[j] +"  :  "+tab[0][t[j]]+"</p>";
    document.getElementById("vendu").innerHTML="<a href='service.php' class='mybtn'> Info Achat  </a>";
 
     }
+    if(donne[i][6])
+    {
+        document.getElementById("c").innerHTML+="<div class='owl-thumb-item'><img src='"+donne[i][6]+"' alt=''></div>";
+     //  document.getElementById("product-details").innerHTML+="<div class='single-product-thumb'><img src='"+donne[i][6]+"' alt=''></div>";
 
+    }
+    
 
      }
 }
@@ -384,7 +390,7 @@ d+="<div class='single-product-thumb'><img src='"+images[i]+"' alt=''></div>";
 }
 
  document.getElementById("c").innerHTML=c;
- document.getElementById("d").innerHTML=d;
+ document.getElementById("product-details").innerHTML=d;
 
 }
 
