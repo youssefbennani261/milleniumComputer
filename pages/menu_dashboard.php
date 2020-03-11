@@ -9,7 +9,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i>Profile<div class="ripple-wrapper"></div></a></li>
                                     <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
-                                    <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a></li>
+                                    <li><a href="../php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
                                 </ul>
                             </div>
                             
@@ -27,7 +27,6 @@
                                 <a href="#" class="waves-effect"><i class="md-store"></i><span> Articles </span><span class="pull-right"><i class="md md-add"></i></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="liste_articles.php">Liste des articles</a></li>
-                                    <li><a href="email-compose.html">Ajouter un Article</a></li>
                                 </ul>
                             </li>
 

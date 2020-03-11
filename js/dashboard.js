@@ -27,6 +27,9 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
                         data: 'desi'
                     },
                     {
+                        data: 'desc'
+                    },
+                    {
                         data: null,render:function (data, type, row){
                             if(row.vendue==0){
                              return "non vendu";
@@ -125,6 +128,7 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
         $("#designation").val(tab[id].desi);
         $("#prix").val(tab[id].prixU);
         $("#Vendu").val(tab[id].vendue);
+        $("#descrip").val(tab[id].desc);
         $("#estim").val(tab[id].estimation);
         $("#categorie option").filter(function() {
             return  $(this).text() == tab[id].categorie;
@@ -154,8 +158,8 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
         //         return obj
         //    });
     
-                $.post("../php/dashboard.php",{op:3,des:$("#designation").val(),vendu:$("#Vendu").val(),prix:$("#prix").val(),est:$("#estim").val(),cate:$("#categorie").val(),detail:JSON.stringify(arr),id:tab[id].id},()=>{
-                    $('#con-close-modal').modal('toggle'); 
+                $.post("../php/dashboard.php",{op:3,des:$("#designation").val(),desc:$("#descrip").val(),vendu:$("#Vendu").val(),prix:$("#prix").val(),est:$("#estim").val(),cate:$("#categorie").val(),detail:JSON.stringify(arr),id:tab[id].id},()=>{
+                    $('#con-close-modal').modal('toggle');
                     get_articles();
                     $.Notification.autoHideNotify('success','bottom right', 'Modification avec succes');
 
@@ -266,9 +270,10 @@ if (window.location.pathname == "/MelliniumComputer/pages/liste_articles.php") {
     form_data.append("prix",$("#prix2").val());
     form_data.append("est",$("#estim2").val());
     form_data.append("cate",$("#categorie2").val());
+    form_data.append("desc",$("#descrip2").val())
     form_data.append("detail",JSON.stringify(arr2));
     form_data.append("op",5);
-    $.ajax({
+    $.ajax({    
      url:"../php/dashboard.php",
      method:"POST",
      data: form_data,
